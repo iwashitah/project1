@@ -1,0 +1,25 @@
+name: Frogbot Pull Request Scan
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, ready_for_review]
+
+permissions:
+  contents: read
+  pull-requests: write   # PRへコメント等するなら必要
+  security-events: write # SARIF出力等を使う場合に必要なことがある
+
+jobs:
+  frogbot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run Frogbot
+        uses: jfrog/frogbot@v2
+        env:
+          JF_URL: ${{ secrets.JF_URL }}
+          JF_ACCESS_TOKEN: ${{ secrets.JF_ACCESS_TOKEN }}
+          # 多くのケースで GITHUB_TOKEN でOK（fork PRは制限に注意）
+          JF_GIT_TOKEN: ${{ secrets.JF_GIT_TOKEN }}
