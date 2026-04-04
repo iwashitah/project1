@@ -1,0 +1,10 @@
+version: 1
+type: maven
+resolver:
+    serverId: test-artifactory-nginx.jpd
+    snapshotRepo: maven-virtual
+    releaseRepo: maven-virtual
+deployer:
+    serverId: test-artifactory-nginx.jpd
+    snapshotRepo: maven-virtual
+    releaseRepo: maven-virtual
