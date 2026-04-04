@@ -37,7 +37,7 @@
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.specification.version" value="11"/>
     <property name="buildInfoConfig.artifactoryResolutionEnabled" value="true"/>
-    <property name="buildInfoConfig.propertiesFile" value="/tmp/jfrog/properties/extractorProperties490005313"/>
+    <property name="buildInfoConfig.propertiesFile" value="/tmp/jfrog/properties/extractorProperties3543299861"/>
     <property name="user.name" value="root"/>
     <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
     <property name="java.vm.specification.version" value="11"/>

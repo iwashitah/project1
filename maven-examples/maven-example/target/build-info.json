@@ -1,7 +1,7 @@
 {
   "version" : "1.0.1",
   "name" : "Maven_Build",
-  "number" : "2",
+  "number" : "3",
   "buildAgent" : {
     "name" : "Maven",
     "version" : "3.6.3"
@@ -10,8 +10,8 @@
     "name" : "/",
     "version" : "3.6.3"
   },
-  "started" : "2026-04-03T05:04:48.691+0000",
-  "durationMillis" : 2672,
+  "started" : "2026-04-04T00:23:37.846+0000",
+  "durationMillis" : 1643,
   "vcs" : [ ],
   "modules" : [ {
     "properties" : {
@@ -25,9 +25,9 @@
     "repository" : "maven-virtual",
     "artifacts" : [ {
       "type" : "jar",
-      "sha1" : "b44842724f5c492a3e4a31959b4a6895374a0079",
-      "sha256" : "a1c6857d33d58316c57bc79760c6578c21659a5b7582a9d4b5624822c0e35c46",
-      "md5" : "c4e808ce8b3800e01aaf168063b4e175",
+      "sha1" : "16f39ee2b0c54c58e74000c34cdd1819c743fc87",
+      "sha256" : "79fd3b66a9e6e233e84427cf184476e6cf18cb2094913d0a3cb12cdeeb3a91d2",
+      "md5" : "102fcbcc5587fa2450c8a158df0e120c",
       "name" : "multi2-3.7-SNAPSHOT.jar",
       "path" : "org/jfrog/test/multi2/3.7-SNAPSHOT/multi2-3.7-SNAPSHOT.jar"
     }, {
@@ -58,23 +58,23 @@
     "repository" : "maven-virtual",
     "artifacts" : [ {
       "type" : "test-jar",
-      "sha1" : "e47a8e1f52dd92dc0832f1d8892713018dc8a7fc",
-      "sha256" : "a442eb82d02c5ab2ba0c4bf5ed60f140fc11ebebb86f6d43ad70ec7ce48f05d0",
-      "md5" : "5f876e0575655dc92e50456ccca94249",
+      "sha1" : "1e95f4920b707f3ea040d3c883d5028365be2b19",
+      "sha256" : "cb88c3059c88f4a422734826d15cdb3c0745190e6f80565d87d4fba74890db60",
+      "md5" : "6cc822f403a6d707ca248c5d447f7745",
       "name" : "multi1-3.7-SNAPSHOT-tests.jar",
       "path" : "org/jfrog/test/multi1/3.7-SNAPSHOT/multi1-3.7-SNAPSHOT-tests.jar"
     }, {
       "type" : "java-source-jar",
-      "sha1" : "dbe5f21f3d85fbb10220fd91e49c3303fdb04d24",
-      "sha256" : "9bd02ad9f7997c583177e71b017849c3269cc85511d3f41bdc3da94ab30cb5b1",
-      "md5" : "bae38483c3cf2e64d83de58068f16f1a",
+      "sha1" : "daeb25d87042a77c013ab7db22e8552df25f6e2b",
+      "sha256" : "168985fc2952d85819b17bb76fedb4c896df8cdd0fb3ac7fe8069fd8533a4494",
+      "md5" : "15195af184b546f5310b8ab9a49ccd60",
       "name" : "multi1-3.7-SNAPSHOT-sources.jar",
       "path" : "org/jfrog/test/multi1/3.7-SNAPSHOT/multi1-3.7-SNAPSHOT-sources.jar"
     }, {
       "type" : "jar",
-      "sha1" : "239c9958dd1613b601a1fa93adc17cd5caa6e486",
-      "sha256" : "1412e6f05c0c647783c96d4993e2ef64e7bd7238426f5712c7a6e2c54888d779",
-      "md5" : "7ad441354a9eab6e383ee4469d1ed8b4",
+      "sha1" : "359459df5a62261bc1b6d6af48285dcf7e0be8f0",
+      "sha256" : "bb9243d43550b9d850d6d8dc2b9c3cd67b09bd645dd54d4330953723fd27c634",
+      "md5" : "78d8bdaa0de3481de99eadabeb8a3cdf",
       "name" : "multi1-3.7-SNAPSHOT.jar",
       "path" : "org/jfrog/test/multi1/3.7-SNAPSHOT/multi1-3.7-SNAPSHOT.jar"
     }, {
@@ -218,9 +218,9 @@
     "repository" : "maven-virtual",
     "artifacts" : [ {
       "type" : "war",
-      "sha1" : "e271e4ac20c8a6e8f02bebd5ad2af36ceb160d0c",
-      "sha256" : "fdce9ba24088f3848ccbd9dff835d9804ffaa64732cc65ce024d627ad8217e0e",
-      "md5" : "07750a2036325a90f11aa9ab4c2080fb",
+      "sha1" : "2fd3e17ee2af6123c4788861a4122d683710ef9e",
+      "sha256" : "075ed56837b921611fdbff1d1b4268bf552955d5608260f380605cc162805d3d",
+      "md5" : "7e875584d5bcdde895c7a8ef5b3d8f43",
       "name" : "multi3-3.7-SNAPSHOT.war",
       "path" : "org/jfrog/test/multi3/3.7-SNAPSHOT/multi3-3.7-SNAPSHOT.war"
     }, {
@@ -241,9 +241,9 @@
       "requestedBy" : [ [ "org.springframework:spring-aop:2.5.6", "org.jfrog.test:multi1:3.7-SNAPSHOT", "org.jfrog.test:multi3:3.7-SNAPSHOT" ] ]
     }, {
       "type" : "jar",
-      "sha1" : "239c9958dd1613b601a1fa93adc17cd5caa6e486",
-      "sha256" : "1412e6f05c0c647783c96d4993e2ef64e7bd7238426f5712c7a6e2c54888d779",
-      "md5" : "7ad441354a9eab6e383ee4469d1ed8b4",
+      "sha1" : "359459df5a62261bc1b6d6af48285dcf7e0be8f0",
+      "sha256" : "bb9243d43550b9d850d6d8dc2b9c3cd67b09bd645dd54d4330953723fd27c634",
+      "md5" : "78d8bdaa0de3481de99eadabeb8a3cdf",
       "id" : "org.jfrog.test:multi1:3.7-SNAPSHOT",
       "scopes" : [ "compile" ],
       "requestedBy" : [ [ "org.jfrog.test:multi3:3.7-SNAPSHOT" ] ]
