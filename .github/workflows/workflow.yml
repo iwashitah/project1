@@ -11,6 +11,8 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup JFrog CLI
         uses: jfrog/setup-jfrog-cli@v4
+        with:
+          disable-job-summary: true
         env:
           # JFrog platform url (for example: https://acme.jfrog.io)
           #JF_URL: ${{ vars.JF_URL }}
@@ -33,4 +35,4 @@ jobs:
           # Collect VCS details from git and add them to the build
           jf rt bag
           # Publish build info
-          jf rt bp --detailed-summary=false
+          jf rt bp
