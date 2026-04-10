@@ -12,7 +12,7 @@ jobs:
       - name: Setup JFrog CLI
         uses: jfrog/setup-jfrog-cli@v4
         with:
-          disable-job-summary: true
+          disable-job-summary: false
         env:
           # JFrog platform url (for example: https://acme.jfrog.io)
           #JF_URL: ${{ vars.JF_URL }}
@@ -37,4 +37,4 @@ jobs:
           # Upload
           jf rt u test.txt example-repo-local/project1/
           # Publish build info
-          jf rt bp
+          #jf rt bp
