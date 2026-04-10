@@ -37,4 +37,4 @@ jobs:
           # Upload
           jf rt u test.txt example-repo-local/project1/
           # Publish build info
-          #jf rt bp
+          jf rt bp
