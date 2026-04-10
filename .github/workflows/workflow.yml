@@ -34,5 +34,7 @@ jobs:
           jf rt bce
           # Collect VCS details from git and add them to the build
           jf rt bag
+          # Upload
+          jf u * example-repo-local/project1/
           # Publish build info
-          jf rt bp
+          #jf rt bp
